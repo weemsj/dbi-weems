@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.set('port', 8894);
+app.set('port', 3000);
 
 app.get('/',function(req,res){
     res.type('text/plain');
